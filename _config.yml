@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Nikhil Shenoy"
-  avatar           : "./images/Profile.jpeg"
+  avatar           : "images/Profile.jpeg"
   bio              : "Simplifying complexity"
   location         : "New Delhi"
   employer         :
@@ -99,10 +99,10 @@ author:
   github           : "shenoynikhil"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "shenoy.nikhil/"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "nikhil-shenoy-01a7a6141/"
   orcid            : 
   pinterest        :
   soundcloud       :
