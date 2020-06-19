@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Simplified : Dynamics of the Korean Peninsula"
 date: 2020-06-12
 permalink: /posts/2020/06/korea_simplified
