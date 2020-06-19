@@ -1,13 +1,15 @@
 # main links links
 main:
   - title: "CV"
-    url: /cv/
+    url: /files/Nikhil_Shenoy.pdf
 
   - title: "Publications"
     url: /publications/
-            
-  - title: "Blog Posts"
+
+  - title: "Blog"
     url: /year-archive/
-    
-  - title: "Guide"
-    url: /markdown/
+            
+  - title: "Extra"
+    url: /year-archive/
+
+
