@@ -7,9 +7,6 @@ tags:
   - WWII 
 ---
 
-Simplified : Dynamics of the Korean Peninsula
-======
-
 In 2018, North Korean leader Kim Jong Un and South Korean President Moon Jae-In met at the 38th Parallel, the line that divides the two countries. This was the 
 first time since the Korean War (1950 - 1952) that a North Korean leader had entered the South Korean territory (pretty suprising, isn't it!). To understand why the 
 equation between the two countries have been sour, we need to start from 1910.
