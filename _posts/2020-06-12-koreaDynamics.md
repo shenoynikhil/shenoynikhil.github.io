@@ -33,4 +33,4 @@ Post Korean War
 Since the Armistice agreement, a peace treaty has **never** been signed between the two countries. Tensions remain high because of North Korea's nuclear weapons program. They have repeatedly declared the armistice as nullified and have resorted to border incursions and assasination attempts. North Korea also withdrew from the Treaty on the Non-Proliferation of Nuclear Weapons (NPT) in 2003 and have conducted six highly sophisticated nuclear tests since then. 
 
 South Korea due to its strong ties with the west with an ongoing US army presence developed at a rapid rate and has become a fully democatric nation. Whereas North Korea remained to grow in isolation, particularly after the fall of the Soviet Union in 1990s, it is severely underdeveloped and is a massive police state with it's citizens under constant survelliance.
-------
+
