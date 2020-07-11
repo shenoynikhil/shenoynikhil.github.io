@@ -5,34 +5,34 @@ permalink: /posts/2020/07/MCMC_samping
 tags:
   - Sampling 
 ---
-
+$\documentclass{article}\usepackage{amsmath}$
 MCMC Sampling is primarily used to sample from a complicated probability density function $p(x)$ or to approximate an expectation of a function $E[f(x)]$ where $x \~{p(x)}$. To understand why this works well we need to understand some of the properties of a markov chain.
 
 <B>Some Properties of Markov Chain </B>
 
 1. Ergodic Theorem : 
-a) If $(X_{0}, X_{1}.... X_{n})$ is an irreducible time homogenous discrete MC with stationary distribution $\pi$, then 
-$$ \dfrac{1}{n} \sum_{i = 1}^{n) f(x_{i}) n\to\infty E[f(x)]$$  for any bounded function $f : \mathscr{X}\to\mathbb{R}
+- If $(X_{0}, X_{1}.... X_{n})$ is an irreducible time homogenous discrete MC with stationary distribution $\pi$, then 
+$$ \dfrac{1}{n} \sum_{i = 1}^{n) f(x_{i}) n\to\infty E[f(x)] $$  for any bounded function $f : \mathscr{X}\to\mathbb{R}$
 
-b) If further, it is aperiodic, then <br>
+- If further, it is aperiodic, then <br>
 $P(X_{n} = x | X_{0} = x_{0}) \to \pi(x) $ as $ n\to\infty$ $$\forall x, x_{0} \in \mathscr{X}$$
 We can start from anywhere and keep drawing from $P(X_{n} | X_{0})$ our distribution converges to the original stationary distribution(\pi(x))
 
-2. Time Homogenous
+2. Time Homogenous <br>
 A Markov Chain is said to be homogenous if  $P(X_{i + 1} = b | X_{i} = a) = T_{ab}$ $\forall$ $i$ $\forall$ a, b $\in$ $\mathscr{X}$ for some matrix T. To put it simply it means that the transition from a to b will not depend at what time (or i) it is occuring.
 
 For a discrete steps markov chain, the transition matrix is a stochastic matrix, which means that all entries are non-negative probabilites where rows sum up to 1. If it is a continuous space markov chain T will be replaced with a kernel, <br>
 K : $\mathscr{X}$ $\to$ $\mathscr{X}$
 
-3. Stationary Distribution
+3. Stationary Distribution <br>
 A pmf $\pi$ on $\mathscr{X}$ is a stationary distribution if $\piT = \pi$ (i.e. $\sum_{a|in\mathscr{X})\pi_{a}T_{ab} = T_{ab}$
 
-4. Irreducible 
+4. Irreducible <br>
 A markov chain($X_{i}$) is irreducible if $\forall$ a, b $\in$ $\mathscr{X}$ $\exists$ t $\geq$ 0 s.t. P($X_{t}$ = b | $X_{0}$ = a) > 0. This means that no matter where we start from, we will get to another point with probability p > 0.
 
-5. Aperiodic Markov Chain 
+5. Aperiodic Markov Chain <br>
 An irreducible matrix M.C {$X_{i}$}, if $\forall$ a $\in$ $\mathscr{X}$,
-$$ \text{gcd}{t : P(x_{t} = a | x_{0) = a} > 0} = 1 $$
+$$ \[ \text{gcd} \text{{ t} : P(x_{t} = a | x_{0) = a) > 0} = 1 \] $$
 
 6. Reversibility 
 This is used in MCMC to construct a markov chain with a particular stationary distribution. 
