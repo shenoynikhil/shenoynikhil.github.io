@@ -12,4 +12,6 @@ MCMC Sampling is primarily used to sample from a complicated probability density
 
 #### Some Properties of Markov Chain 
 
+1. Ergodic Theorem : if $(X_{0}, X_{1}.... X_{n})$ is an irreducible time homogenous discrete MC with stationary distribution $\pi$
+
 
