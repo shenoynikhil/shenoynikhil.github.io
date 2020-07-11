@@ -25,7 +25,7 @@ For a discrete steps markov chain, the transition matrix is a stochastic matrix,
 K : $\mathscr{X}$ $\to$ $\mathscr{X}$
 
 3. Stationary Distribution <br>
-A pmf $\pi$ on $\mathscr{X}$ is a stationary distribution if $\piT = \pi$ (i.e. $\sum_{a|in\mathscr{X})\pi_{a}T_{ab} = T_{ab}$
+A pmf $\pi$ on $\mathscr{X}$ is a stationary distribution if $\pi$T =$\pi$ (i.e. $\sum_{a|in\mathscr{X})\pi_{a}T_{ab} = T_{ab}$)
 
 4. Irreducible <br>
 A markov chain($X_{i}$) is irreducible if $\forall$ a, b $\in$ $\mathscr{X}$ $\exists$ t $\geq$ 0 s.t. P($X_{t}$ = b | $X_{0}$ = a) > 0. This means that no matter where we start from, we will get to another point with probability p > 0.
