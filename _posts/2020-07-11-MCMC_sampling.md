@@ -19,13 +19,13 @@ $P(X_{n} = x | X_{0} = x_{0}) \to \pi(x) $ as $ n\to\infty$ $$\forall x, x_{0} \
 We can start from anywhere and keep drawing from $P(X_{n} | X_{0})$ our distribution converges to the original stationary distribution(\pi(x))
 
 2. Time Homogenous <br>
-A Markov Chain is said to be homogenous if  $P(X_{i + 1} = b | X_{i} = a) = T_{ab}$ $\forall$ $i$ $\forall$ a, b $\in$ $\mathscr{X}$ for some matrix T. To put it simply it means that the transition from a to b will not depend at what time (or i) it is occuring.
+A Markov Chain is said to be homogenous if  $$P(X_{i + 1} = b | X_{i} = a) = T_{ab}$$ $\forall$ $i$ $\forall$ a, b $\in$ $\mathscr{X}$ for some matrix T. To put it simply it means that the transition from a to b will not depend at what time (or i) it is occuring.
 
 For a discrete steps markov chain, the transition matrix is a stochastic matrix, which means that all entries are non-negative probabilites where rows sum up to 1. If it is a continuous space markov chain T will be replaced with a kernel, <br>
-K : $\mathscr{X}$ $\to$ $\mathscr{X}$
+$$\[ K : \mathscr{X} \to \mathscr{X} \]$$
 
 3. Stationary Distribution <br>
-A pmf $\pi$ on $\mathscr{X}$ is a stationary distribution if $\pi$T =$\pi$ (i.e. $\sum_{a|in\mathscr{X})\pi_{a}T_{ab} = T_{ab}$)
+A pmf $\pi$ on $\mathscr{X}$ is a stationary distribution if $\pi$T =$\pi$ i.e. <br>$$\sum_{a|in\mathscr{X})\pi_{a}T_{ab} = T_{ab}$$
 
 4. Irreducible <br>
 A markov chain($X_{i}$) is irreducible if $\forall$ a, b $\in$ $\mathscr{X}$ $\exists$ t $\geq$ 0 s.t. P($X_{t}$ = b | $X_{0}$ = a) > 0. This means that no matter where we start from, we will get to another point with probability p > 0.
