@@ -7,7 +7,9 @@ tags:
 ---
 $$\documentclass{article}
 \usepackage{amsmath}$$
-MCMC Sampling is primarily used to sample from a complicated probability density function $p(x)$ or to approximate an expectation of a function $E[f(x)]$ where $x \~{p(x)}$. To understand why this works well we need to understand some of the properties of a markov chain.
+MCMC Sampling is primarily used to sample from a complicated probability density function $p(x)$ or to approximate an expectation of a function $E[f(x)]$ where $x \~ p(x)$. <br>
+
+To understand why this works well we need to understand some of the properties of a markov chain.
 
 <B>Some Properties of Markov Chain </B>
 
