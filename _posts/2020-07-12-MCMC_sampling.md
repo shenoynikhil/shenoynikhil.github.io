@@ -26,7 +26,7 @@ A markov chain($X_{i}$) is irreducible if $\forall$ a, b $\in$ $\mathscr{X}$ $\e
 
 4. Aperiodic Markov Chain 
 An irreducible matrix M.C {$X_{i}$}, if $\forall$ a $\in$ $\mathscr{X}$,
-$$ \[ \text{gcd} \text{t} : P(x_{t} = a | x_{0) = a) > 0} = 1 \] $$
+$$ \[ \text{gcd} \text{\{t} : (P(x_{t} = a | x_{0) = a) > 0\} = 1 \] $$
 
 5. Reversibility 
 This is used in MCMC to construct a markov chain with a particular stationary distribution.
