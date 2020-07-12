@@ -33,7 +33,7 @@ This is used in MCMC to construct a markov chain with a particular stationary di
 
 6. Ergodic Theorem 
 - If $(X_{0}, X_{1}.... X_{n})$ is an irreducible time homogenous discrete MC with stationary distribution $\pi$, then 
-$$ \dfrac{1}{n} \sum_{i = 1}^{n) f(x_{i}) n\to\infty E[f(x)] $$  for any bounded function $f : \mathscr{X}\to\mathbb{R}$
+$$ \dfrac{1}{n} \sum_{i = 1}^{n) f(x_{i}) n\to\infty E[f(x)] $$  for any bounded function $$f : \mathscr{X}\to\mathbb{R}$$
 
 - If further, it is aperiodic, then 
 $P(X_{n} = x | X_{0} = x_{0}) \to \pi(x) $ as $ n\to\infty$ $$\forall x, x_{0} \in \mathscr{X}$$
