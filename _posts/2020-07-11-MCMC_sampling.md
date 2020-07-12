@@ -19,7 +19,7 @@ To understand why this works well we need to understand some of the properties o
   $$\[ K : \mathscr{X} \to \mathscr{X} \]$$
 
 2. Stationary Distribution
-A pmf $\pi$ on $\mathscr{X}$ is a stationary distribution if $\pi$T =$\pi$ i.e. $$\sum_{a|in\mathscr{X})\pi_{a}T_{ab} = T_{ab}$$
+A pmf $\pi$ on $\mathscr{X}$ is a stationary distribution if $$\pi T =\pi$$ i.e. $$\sum_{a|in\mathscr{X})\pi_{a}T_{ab} = T_{ab}$$
 
 3. Irreducible 
 A markov chain($X_{i}$) is irreducible if $\forall$ a, b $\in$ $\mathscr{X}$ $\exists$ t $\geq$ 0 s.t. P($X_{t}$ = b | $X_{0}$ = a) > 0. This means that no matter where we start from, we will get to another point with probability p > 0.
