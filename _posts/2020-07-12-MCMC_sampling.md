@@ -1,6 +1,6 @@
 ---
 title: Monte Carlo Markov Chain
-date: 2020-07-11
+date: 2020-07-12
 permalink: /posts/2020/07/MCMC_samping
 tags:
   - Sampling
